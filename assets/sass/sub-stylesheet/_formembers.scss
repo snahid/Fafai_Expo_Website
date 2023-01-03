@@ -1,0 +1,441 @@
+
+.fafai-members {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  @media(max-width: 767px){
+      .fafai-members {
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  }
+  .fafai-members .fafai-members-left {
+    padding-right: 30px;
+  }
+  .fafai-members .fafai-members-left h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+    color: $theme-color;
+  }
+  .fafai-members .fafai-members-left a {
+    background-color: $theme-color;
+    color: $white-color;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 7px 0px 12px 0px;
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid $theme-color;
+    width: 70%;
+  }
+  .fafai-members .fafai-members-left a:hover {
+    background-color: $white-color;
+    color: $theme-color;
+    border-color: $theme-color;
+    box-shadow: 0px 1px 30px 0px rgba(19, 19, 56, 0.5);
+  }
+  .fafai-members .fafai-members-left p {
+    margin-top: 60px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  @media(max-width: 767px){
+      .fafai-members .fafai-members-left p {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .fafai-members .fafai-members-left h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: $theme-color;
+  }
+  .fafai-members .fafai-members-left {
+    padding-right: 0px;
+    margin-bottom: 45px;
+  }
+  }
+  
+  .fafai-members .fafai-members-right {
+    // padding-left: 30px;
+  }
+  .fafai-members .fafai-members-right h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+    color: $theme-color;
+  }
+  @media(max-width: 767px){
+      .fafai-members .fafai-members-right h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: $theme-color;
+  }
+  .fafai-members .fafai-members-right {
+    padding-left: 0px;
+  }
+  }
+  .fafai-members .fafai-members-right .step1 {
+    margin-bottom: 44px;
+  }
+  .fafai-members .fafai-members-right .step .step-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fafai-members .fafai-members-right .step .step-inner p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $theme-color;
+    font-size: 30px;
+  }
+  .fafai-members .fafai-members-right a {
+    background-color: $theme-color;
+    color: $white-color;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 7px 0px 12px 0px;
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid $theme-color;
+    width: 40%;
+  }
+  .fafai-members .fafai-members-right a:hover {
+    background-color: $white-color;
+    color: $theme-color;
+    border-color: $theme-color;
+    box-shadow: 0px 1px 30px 0px rgba(112, 112, 112, 0.5);
+  }
+  .left-link{
+      width: 85% !important;
+      padding-left: 55px !important;
+      padding-right: 55px !important;
+  }
+  .login-link{
+    width: 30% !important;
+  }
+  .fafai-members .fafai-members-right p {
+    margin-top: 60px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  @media(max-width: 767px){
+      .fafai-members .fafai-members-right p {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  }
+  
+  .registration-fees {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: $ash-color;
+  }
+  .registration-fees h1 {
+    color: $theme-color;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  @media(max-width: 767px){
+      .registration-fees h1 {
+    color: $theme-color;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  }
+  .registration-fees .registration-fees-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid $theme-color;
+  }
+  
+  .registration-fees .registration-fees-inner .fees-box .fees-header {
+    background-color: $theme-color;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .registration-fees .registration-fees-inner .fees-box .fees-header h6 {
+    color: $white-color;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .registration-fees .registration-fees-inner .fees-box .fees-body {
+    // background-color: $ash-color;
+    background-color: $border-color;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid $theme-color;
+  }
+  .registration-fees .registration-fees-inner .fees-box .fees-body p {
+    font-size: 22px;
+    margin-bottom: 0;
+    color: $theme-color;
+  }
+  .registration-fees .registration-fees-inner .fees-box:first-child .fees-body p {
+    text-transform: uppercase;
+  }
+  .registration-fees .registration-fees-inner .box1 {
+    width: 35%;
+    .fees-header{
+      border-top-left-radius: 15px;
+    }
+    .fees-body{
+      &:nth-child(3){
+        border-bottom: 0px solid transparent;
+        background-color: $h-sky-color;
+        p{
+          font-weight: 500;
+        }
+      }
+      &:nth-child(5){
+        border-bottom: 0px solid transparent;
+        background-color: $h-sky-color;
+        p{
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .registration-fees .registration-fees-inner .box2 {
+    width: 19%;
+    .fees-body{
+      &:nth-child(3){
+        border-bottom: 0px solid transparent;
+        background-color: $h-sky-color;
+        p{
+          font-weight: 500;
+        }
+      }
+      &:nth-child(5){
+        border-bottom: 0px solid transparent;
+        background-color: $h-sky-color;
+        p{
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .registration-fees .registration-fees-inner .box3 {
+    width: 27%;
+    .fees-body{
+      &:nth-child(3){
+        border-bottom: 0px solid transparent;
+        background-color: $h-sky-color;
+        p{
+          font-weight: 500;
+        }
+      }
+      &:nth-child(5){
+        border-bottom: 0px solid transparent;
+        background-color: $h-sky-color;
+        p{
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .registration-fees .registration-fees-inner .box4 {
+    width: 19%;
+    .fees-header{
+      border-top-right-radius: 15px;
+    }
+    .fees-body{
+      &:nth-child(3){
+        border-bottom: 0px solid transparent;
+        background-color: $h-sky-color;
+        p{
+          font-weight: 500;
+        }
+      }
+      &:nth-child(5){
+        border-bottom: 0px solid transparent;
+        background-color: $h-sky-color;
+        
+        p{
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  
+  
+  .formobile{
+      display: none;
+      color: $theme-color;
+  }
+  .fordesktop{
+      font-size: 22px;
+  }
+  
+  
+  @media(max-width: 767px){
+      .registration-fees .registration-fees-inner .fees-box .fees-header h6 {
+    color: $white-color;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .registration-fees .registration-fees-inner .fees-box .fees-body p {
+    font-size: 13px;
+    margin-bottom: 0;
+    color: $theme-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .registration-fees .registration-fees-inner .box1 {
+    width: 33%;
+  }
+  .registration-fees .registration-fees-inner .box2 {
+    width: 20%;
+  }
+  .registration-fees .registration-fees-inner .box3 {
+    width: 27%;
+  }
+  .registration-fees .registration-fees-inner .box4 {
+    width: 18%;
+  }
+  
+  .fordesktop{
+      display: none;
+      color: $theme-color;
+  }
+  .formobile{
+      display: block;
+      color: $theme-color;
+      font-size: 13px;
+  }
+      
+      
+      
+   
+  }
+  .registration-fees .registration-fees-bottom {
+    margin-top: 15px;
+  }
+  .registration-fees .registration-fees-bottom p {
+    font-size: 18px;
+    color: $theme-color;
+  }
+  .registration-fees .registration-fees-bottom h5 {
+    margin-bottom: 20px;
+    color: $theme-color;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .registration-fees .registration-fees-bottom .registrationp {
+    margin-bottom: 0px;
+  }
+  
+  .hotel-section {
+    margin-bottom: 60px;
+  }
+  
+  .hotel-section h1 {
+    color: $theme-color;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  @media(max-width: 767px){
+  .hotel-section h1 {
+    color: $theme-color;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  }
+  .hotel-section p {
+    color: $theme-color;
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  .hotel-section img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  @media(max-width: 767px){
+      .hotel-section img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  }
+  .hotel-section .hotel-inner-right {
+    padding-left: 20px;
+  }
+  .hotel-section .hotel-inner-left {
+    padding-right: 20px;
+  }
+  @media(max-width: 767px){
+      .hotel-section .hotel-inner-left {
+    padding-right: 0px;
+  }
+  .hotel-section .hotel-inner-right {
+    padding-left: 0px;
+  }
+  .hotel-inner-left{
+      margin-bottom: 50px;
+  }
+  }
+  
+
+
+
+  // Fafai Members Top Section 
+  .nmembers-top{
+    background: $white-color !important;
+    .registration-guide{
+      max-width: 480px;
+      a{
+        img{
+          border-radius: 5px;
+        }
+      }
+    }
+    .opportunity-thumb{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .opportunity-header{
+      background-color: $theme-color !important;
+      h3{
+        color: $white-color;
+      }
+      a{
+        background-color: $white-color;
+        color: $theme-color;
+        &:hover{
+          background-color: $header-active-color;
+          color: $white-color;
+        }
+      }
+    }
+    .opportunity-details{
+      a{
+        transition: 0.5s ease-in-out;
+        border: 1px solid $theme-color;
+        &:hover{
+          background-color: $white-color !important;
+          color: $theme-color !important;
+          box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 10%) !important;
+          -webkit-box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 10%) !important;
+          -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.10) !important;
+        }
+      }
+    }
+  }
+  // Fafai Members Top Section 

@@ -1,0 +1,17 @@
+.paragraph-content-wrapper{
+    background-color: $ash-color;
+    .paragraph-content-inner{
+        padding: 60px 0;
+        p{
+            margin-bottom: 0;
+            color: $theme-color;
+            text-align: center;
+        }
+    }
+}
+
+.venue-map-wrapper{
+    img{
+        width: 100%;
+    }
+}
